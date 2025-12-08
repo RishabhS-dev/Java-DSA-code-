@@ -24,6 +24,91 @@ insert delete search traverse
 10-1 + 10-2
 9+8
 
+# React 
+to install react 
+install node 
+npx create-react-app
+
+three parts of react
+
+component 
+props(properties is nothing but key values)
+state(storage) - react hooks
+
+router-dom - to navigate between pages
+
+
+...
+
+SPA -  single page application eg yt
+MPA - multipage application eg - amazon
+
+lazy loading - based on percentage of net the image will be shown .. in normal loading it shows only when its 100%
+
+
+# Components
+1. functional
+2. class only have state
+
+
+
+
+// import { Component } from "react";
+
+// class App extends Component {
+
+//   state = { count: 0 };
+
+//   increment = () => {
+//     if (this.state.count < 10) {
+//       this.setState(prevState => ({
+//         count: prevState.count + 1
+//       }));
+//     }
+//   };
+
+//   decrement = () => {
+//     if (this.state.count > -10) {
+//       this.setState(prevState => ({
+//         count: prevState.count - 1
+//       }));
+//     }
+//   };
+  
+//   Reseted = () => {
+//     this.setState({
+//       count: 0
+//     });
+//   };
+
+//   render() {
+//     const { count } = this.state;
+//     return (
+//       <>
+//         <h1>
+//           {count}
+//         </h1>
+//         <button onClick={this.increment}>
+//           +
+//         </button>
+//         <button onClick={this.decrement}>
+//           -
+//         </button>
+//         <button onClick={this.Reseted}>
+//           Reset
+//         </button>
+//       </>
+//     );
+//   }
+// }
+
+// export default App;
+
+
+// for navigation vbetween pages ----> npm i react-router-dom
+
+dont use anchor taG in react js strictly saying use link instead
+
 # ARRAYS
 Arrays.toString(arrayname) to convert array to string 
 
