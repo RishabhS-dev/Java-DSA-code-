@@ -13,10 +13,30 @@ Binary search tree
 1. binary tree
 2. All nodes in left subtree is less than the root node and all nodes in right subtree greater than the root node
 3. all nodes in left and right u=subtree should follow the same
-
-
 operations:
 insert delete search traverse
+
+very important point
+
+ternary search- unimodal function is a function that has exactly one peak (maximum) or one valley (minimum).
+This means the function:
+
+Increases up to a single highest point
+
+Then decreases
+
+| Situation                                                    | Best Algorithm |
+| ------------------------------------------------------------ | -------------- |
+| List is unsorted                                             | Linear search  |
+| List is sorted                                               | Binary search  |
+| Searching for **maximum/minimum** of a **unimodal** function | Ternary search |
+
+
+| Type       | Shape                  | Good for Ternary Search? |
+| ---------- | ---------------------- | ------------------------ |
+| Unimodal   | One peak or valley     | ✔ Yes                    |
+| Multimodal | Multiple peaks/valleys | ❌ No                     |
+
 
 # Phase1 notes
 .java notes
